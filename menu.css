@@ -1,0 +1,209 @@
+<style type="text/css">
+* {padding:0; margin:0;}
+a {
+	text-decoration: none;
+}
+li { list-style:none;}
+.homeicon : hover{
+	background-color:#FFF;
+	display:block;
+}
+
+.menu{
+	background-color:#000;
+	text-align:left;
+	font-size:14px;
+	width:auto;
+	height:auto;
+	
+}
+.menu a{
+    text-transform:uppercase
+	letter-spacing:.1cm;
+	color:#FFF;
+	display:block;
+	padding-left:5px;
+	padding-bottom:5px;
+	padding-top:5px;
+	
+	/*border-bottom:1px dotted gray;*/
+	text-align:left;
+	margin-right:10px;
+	
+}
+.menu a : hover {
+	color:#000;
+	font-size: 14px;
+	
+}
+.menu-ul ul {display:none;}
+.menu-ul li:hover ul {display:block;}
+
+.menu-ul ul a:before{
+	content:'\283a';
+	margin-right:8px;
+ 
+}
+.menu .sub-arrow:after{
+	content:'\203A';
+	float:right;
+	margin-right:2px;
+	transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+}
+.menu li:hover .sub-arrow:after{
+	content:'\2039';
+}
+.menu li:hover {
+	background-color: rgba(100,100,100,100);;
+	color: #FFF;
+}
+.menu-ul ul li:hover {
+	background-color: #CCC;
+	
+}
+.menu-ul ul li:hover a {
+	color:#000;
+	
+}
+.menu ul {
+	list-style-type: none;
+	margin-top: 5px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	font-weight: bold;
+	color: #FFF;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: # ;
+    color: #000;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.h11{
+	width:auto;
+	height:auto;
+	font-size: 15px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-bottom: 10px;
+	color: #FFF;
+	text-align:center;
+
+}
+.fontSalinan{
+
+	font-size: 30px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-bottom: 10px;
+	color: #FFF;
+	text-align:center;
+	margin-bottom:50px;
+
+}
+h12{
+	font-size: 14px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-bottom: 50px;
+	color: #000;
+	text-align: center;
+
+
+}
+p22{
+	font-size:12px;
+	text-decoration:none ;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999;
+	text-align: center;
+	padding-top:50px;
+}
+
+.p33{
+	width:auto;
+	height:auto;
+	font-size:14px;
+	text-decoration:none ;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#000;
+	text-align:right;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+
+	
+
+
+
+}
+
+.header2 nav ul{
+	margin:0px;
+	padding-top:0px;
+	
+	
+}
+.header2 nav ul li{
+	list-style-type: none;
+	float: right;
+	display: block;
+	width:120px;
+	height:30px;
+	line-height:25px;
+	font-family: Arial, Helvetica, 	sans-serif;
+	font-size: 15px;
+	text-align:center;
+	background-color:#7982EA;
+	
+}
+
+/* for navbar box home button color*/
+.header2 nav ul li a{
+  text-decoration:none;	
+  color:#FFF;
+ 
+
+ 
+}
+
+/* for navbar box hover */
+.header2 nav ul li:hover {
+background-color:#CCC;
+
+
+}
+/* for navbar box hover*/
+.header2 nav ul li:hover a{
+	display:block;
+	margin-bottom:25px;
+	color: #000;
+	font-size: 15px;
+	width:120px;
+	height: 50px; 
+	text-align:center;
+}
+
+</style>
+<style type="text/css">
+.container .row .col-8.col-m-9 form .textarea p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+
+
+</style>
+
